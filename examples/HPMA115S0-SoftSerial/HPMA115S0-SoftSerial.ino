@@ -60,7 +60,7 @@ void loop() {
     Serial.println(" ");
   }
   else{
-	Serial.print("Measurement fail");  
+	Serial.println("Measurement fail");  
   }	
   // Wait 15 seconds
   delay(15000);
