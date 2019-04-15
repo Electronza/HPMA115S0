@@ -11,8 +11,8 @@
 
 #include <hpma115s0.h>
 bool my_status;
-float p25;
-float p10;
+unsigned int p25;
+unsigned int p10;
 
 HPMA115S0 my_hpm(Serial2);
  

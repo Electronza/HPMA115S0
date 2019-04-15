@@ -14,8 +14,8 @@
 #include <SoftwareSerial.h>
 
 bool my_status;
-float p25;
-float p10;
+unsigned int p25;
+unsigned int p10;
 
 SoftwareSerial mySerial(10, 11); // RX, TX
 HPMA115S0 my_hpm(mySerial);
