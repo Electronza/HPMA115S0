@@ -57,7 +57,7 @@ bool HPMA115S0::stop_measurement(void)
   else return 0;
 }
  
-bool HPMA115S0::read (float *p25, float *p10)
+bool HPMA115S0::read (unsigned int *p25, unsigned int *p10)
 {
   // Send the command 0x68 0x01 0x04 0x93
   byte read_particle[] = {0x68, 0x01, 0x04, 0x93 };
