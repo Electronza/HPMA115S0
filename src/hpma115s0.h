@@ -16,7 +16,7 @@
 class HPMA115S0 {
 	public:
 		HPMA115S0(Stream& serial);
-		bool read(float *p25, float *p10);
+		bool read(unsigned int *p25, unsigned int *p10);
 		bool stop_measurement();
 		bool start_measurement();
 		bool stop_autosend();
